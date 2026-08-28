@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "petar-v-nikolov/laravel-simple-image-gallery",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Laravel 9 starter kit: public image gallery with session auth and upload/delete.",
+    "keywords": ["laravel", "gallery", "images", "starter-kit"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
