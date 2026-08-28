@@ -1,10 +1,8 @@
 # Laravel Simple Image Gallery
 
-A Laravel 9 starter kit for a small public photo site. Visitors browse a grid of images. Signed-in users upload JPEG, PNG, WebP, or GIF files to the public disk and can delete their own uploads.
+A Laravel 13 starter kit for a small public photo site. Visitors browse a grid of images. Signed-in users upload JPEG, PNG, WebP, or GIF files to the public disk and can delete their own uploads.
 
 This is a teaching and bootstrap kit, not a media library. There are no albums, no S3 requirement, and no image processing pipeline.
-
-**Laravel 9 is end of life.** Bug fixes ended in August 2023 and security fixes ended in February 2024. Keep this version so the repo stays a Laravel 9 gallery starter. Upgrade in your own fork before you rely on it in production.
 
 Listed as an open-source starter on [pnscripts.com](https://pnscripts.com).
 
@@ -18,7 +16,7 @@ Listed as an open-source starter on [pnscripts.com](https://pnscripts.com).
 
 ## Requirements
 
-- PHP 8.1 (CI) — PHP 8.0.2+ is what Laravel 9 declares
+- PHP 8.3+
 - Composer
 - SQLite (for tests) or MySQL (for the Docker / local app)
 - PHP GD or Imagick (for the `image` validation rule)
@@ -72,7 +70,6 @@ Feature tests use SQLite in memory (`phpunit.xml`) and `UploadedFile::fake()` so
 - No albums, tags, or collections
 - No thumbnails, cropping, or EXIF stripping
 - Files live on the **public** disk (local). S3 is optional Laravel config, not required
-- Laravel 9 is EOL — plan an upgrade in your fork for long-term support
 - Auth is minimal session login/register; there is no email verification or password reset
 
 ## License
