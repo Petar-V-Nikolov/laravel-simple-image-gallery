@@ -24,7 +24,7 @@ Listed as an open-source starter on [pnscripts.com](https://pnscripts.com).
 ## Install
 
 ```bash
-git clone git@github.com:Petar-V-Nikolov/laravel-simple-image-gallery.git
+git clone git@github.com:petar-v-nikolov/laravel-simple-image-gallery.git
 cd laravel-simple-image-gallery
 cp .env.example .env
 composer install

@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "petar-v-nikolov/laravel-simple-image-gallery",
+    "name": "pnscripts/laravel-simple-image-gallery",
     "type": "project",
     "description": "Laravel 13 photo grid kit: public gallery with session auth and upload/delete.",
     "keywords": ["laravel", "gallery", "images", "starter-kit"],
