@@ -1,5 +1,7 @@
 # Laravel Simple Image Gallery
 
+> **Archived (2026-10-03).** No longer maintained by PN Scripts; kept read-only for reference.
+
 A Laravel 13 starter kit for a small public photo site. Visitors browse a grid of images. Signed-in users upload JPEG, PNG, WebP, or GIF files to the public disk and can delete their own uploads.
 
 This is a teaching and bootstrap kit, not a media library. There are no albums, no S3 requirement, and no image processing pipeline.
